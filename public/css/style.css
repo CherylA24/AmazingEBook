@@ -1,0 +1,19 @@
+.circle{
+    border: 10px solid #afc9e9; 
+    border-radius:50% ; 
+    width:500px ; 
+    height:500px;
+    display: inline-block;
+    overflow:hidden;
+    margin:5px;
+    padding:25px;
+    text-align: center;
+    position:relative;
+}
+
+.text{
+    transform:translate(-50%,-50%);
+    position:absolute;
+    top:50%;
+    left:50%;
+  }
